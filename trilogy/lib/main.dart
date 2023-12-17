@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// rishitha rishitha, testing testing
+// rishitha, ishita, testing testing
 void main() {
   runApp(const MyApp());
 }
