@@ -56,6 +56,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "flutter_slidable",
+      "rootUri": "file:///Users/pragya_rana/.pub-cache/hosted/pub.dev/flutter_slidable-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/pragya_rana/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -152,7 +158,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2023-12-17T20:59:33.444819Z",
+  "generated": "2023-12-24T20:57:37.577613Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }
