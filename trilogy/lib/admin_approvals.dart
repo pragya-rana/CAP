@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
+import 'package:trilogy/admin_partner_info.dart';
 
 class AdminApprovals extends StatefulWidget {
   const AdminApprovals({Key? key}) : super(key: key);
@@ -157,7 +158,13 @@ class _AdminApprovalsState extends State<AdminApprovals> {
               ),
             ),
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) {
+                    return AdminPartnerInfo();
+                  },
+                ));
+              },
               icon: Icon(
                 Icons.more_vert_sharp,
                 color: Color(0xff9E9E9E),

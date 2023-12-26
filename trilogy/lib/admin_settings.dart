@@ -34,13 +34,17 @@ class _AdminSettingsState extends State<AdminSettings> {
                   children: [
                     CircleAvatar(
                       radius: 32,
-                      backgroundColor: Color(0xff8FD694),
-                      child: Text(
-                        'JS',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18,
+                      backgroundColor: Color(0xff8FD694).withOpacity(0.2),
+                      child: CircleAvatar(
+                        radius: 26,
+                        backgroundColor: Color(0xff8FD694),
+                        child: Text(
+                          'JS',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
                         ),
                       ),
                     ),
@@ -53,7 +57,7 @@ class _AdminSettingsState extends State<AdminSettings> {
                         Text(
                           'Jeffrey Stride',
                           style: TextStyle(
-                            color: Color(0xff2C003F),
+                            color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -71,7 +75,7 @@ class _AdminSettingsState extends State<AdminSettings> {
                 Text(
                   'Account Information',
                   style: TextStyle(
-                      color: Colors.black,
+                      color: Color(0xff2C003F),
                       fontWeight: FontWeight.bold,
                       fontSize: 20),
                 ),
@@ -89,7 +93,7 @@ class _AdminSettingsState extends State<AdminSettings> {
                 Text(
                   'Help and Permissions',
                   style: TextStyle(
-                      color: Colors.black,
+                      color: Color(0xff2C003F),
                       fontWeight: FontWeight.bold,
                       fontSize: 20),
                 ),
@@ -108,7 +112,7 @@ class _AdminSettingsState extends State<AdminSettings> {
                 Text(
                   'Logout',
                   style: TextStyle(
-                      color: Colors.black,
+                      color: Color(0xff2C003F),
                       fontWeight: FontWeight.bold,
                       fontSize: 20),
                 ),
@@ -155,15 +159,14 @@ class _AdminSettingsState extends State<AdminSettings> {
                       Text(
                         current_display,
                         style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Color(0xff2C003F)),
+                            fontWeight: FontWeight.bold, color: Colors.black),
                       )
                     ],
                   )
                 : Text(
                     name,
                     style: TextStyle(
-                        fontWeight: FontWeight.bold, color: Color(0xff2C003F)),
+                        fontWeight: FontWeight.bold, color: Colors.black),
                   ),
             Spacer(),
             isEditable

@@ -3,6 +3,7 @@ import 'package:trilogy/admin_approvals.dart';
 import 'package:trilogy/admin_find_partnerships.dart';
 import 'package:trilogy/admin_partner_info.dart';
 import 'package:trilogy/admin_settings.dart';
+import 'package:trilogy/admin_tab_bar.dart';
 
 // rishitha, ishita, testing testing
 void main() {
@@ -21,6 +22,8 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const AdminSettings());
+        home: AdminTabBar(
+          currentPage: 0,
+        ));
   }
 }
