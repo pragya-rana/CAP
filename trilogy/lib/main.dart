@@ -4,6 +4,7 @@ import 'package:trilogy/admin_find_partnerships.dart';
 import 'package:trilogy/admin_partner_info.dart';
 import 'package:trilogy/admin_settings.dart';
 import 'package:trilogy/admin_tab_bar.dart';
+import 'package:trilogy/user_information.dart';
 
 // rishitha, ishita, testing testing
 void main() {
@@ -17,13 +18,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
-        home: AdminTabBar(
-          currentPage: 0,
-        ));
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      // home: AdminTabBar(
+      //   currentPage: 0,
+      // )
+      home: UserInformation(),
+    );
   }
 }
