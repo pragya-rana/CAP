@@ -44,14 +44,38 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "ffi",
+      "rootUri": "file:///Users/pragya_rana/.pub-cache/hosted/pub.dev/ffi-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "file_picker",
+      "rootUri": "file:///Users/pragya_rana/.pub-cache/hosted/pub.dev/file_picker-6.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/pragya_rana/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
+      "name": "flutter_floating_bottom_bar",
+      "rootUri": "file:///Users/pragya_rana/.pub-cache/hosted/pub.dev/flutter_floating_bottom_bar-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_lints",
       "rootUri": "file:///Users/pragya_rana/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///Users/pragya_rana/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -64,6 +88,12 @@
     {
       "name": "flutter_test",
       "rootUri": "file:///Users/pragya_rana/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/pragya_rana/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -96,6 +126,12 @@
       "rootUri": "file:///Users/pragya_rana/.pub-cache/hosted/pub.dev/path-1.8.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/pragya_rana/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.7",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "sky_engine",
@@ -152,13 +188,19 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "win32",
+      "rootUri": "file:///Users/pragya_rana/.pub-cache/hosted/pub.dev/win32-5.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "trilogy",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2023-12-27T22:04:43.920260Z",
+  "generated": "2023-12-27T22:08:01.416344Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }
