@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trilogy/admin_tab_bar.dart';
 
 class AdminPartnerInfo extends StatefulWidget {
   const AdminPartnerInfo({Key? key}) : super(key: key);
@@ -19,6 +20,21 @@ class _AdminPartnerInfoState extends State<AdminPartnerInfo> {
               'images/dallas_cowboys_cover_picture.jpeg',
               fit: BoxFit.cover,
               alignment: Alignment.center,
+            ),
+          ),
+          Align(
+            alignment: Alignment.topLeft,
+            child: Padding(
+              padding: const EdgeInsets.only(top: 32, left: 16),
+              child: TextButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                child: CircleAvatar(
+                  backgroundColor: Colors.white.withOpacity(0.5),
+                  child: Icon(Icons.arrow_back_ios),
+                ),
+              ),
             ),
           ),
           Align(

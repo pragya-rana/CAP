@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:trilogy/admin_partner_info.dart';
+import 'package:trilogy/admin_tab_bar.dart';
 
 class AdminFindPartnerships extends StatefulWidget {
   const AdminFindPartnerships({Key? key}) : super(key: key);
@@ -269,13 +271,46 @@ class _AdminFindPartnershipsState extends State<AdminFindPartnerships> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  'Find\nPartnerships',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 30,
-                  ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Find\nPartnerships',
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                      ),
+                    ),
+                    TextButton(
+                      onPressed: () {
+                        Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) {
+                            return AdminTabBar(currentPage: 1);
+                          },
+                        ));
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(10),
+                            boxShadow: [
+                              BoxShadow(
+                                  offset: Offset(-10, 10),
+                                  blurRadius: 30,
+                                  color: Colors.black.withOpacity(0.15)),
+                            ]),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Icon(
+                            Icons.notifications_outlined,
+                            color: Color(0xff8FD694),
+                            size: 40,
+                          ),
+                        ),
+                      ),
+                    )
+                  ],
                 ),
                 SizedBox(
                   height: 20,
@@ -356,8 +391,8 @@ class _AdminFindPartnershipsState extends State<AdminFindPartnerships> {
                   physics: NeverScrollableScrollPhysics(),
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
-                    crossAxisSpacing: 24.0,
-                    mainAxisSpacing: 24.0,
+                    crossAxisSpacing: 12.0,
+                    mainAxisSpacing: 12.0,
                     childAspectRatio: MediaQuery.of(context).size.width /
                         (MediaQuery.of(context).size.height / 1.6),
                   ),
@@ -379,59 +414,68 @@ class _AdminFindPartnershipsState extends State<AdminFindPartnerships> {
   }
 
   Widget partnershipCard(imageUrl, name, type) {
-    return Container(
-      decoration: BoxDecoration(
-        color: Colors.white,
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.05),
-            offset: Offset(1, 1),
-            blurRadius: 40,
-          ),
-        ],
-        borderRadius: BorderRadius.circular(20),
-      ),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            Container(
-              width: MediaQuery.of(context).size.width * 0.2,
-              height: MediaQuery.of(context).size.width * 0.2,
-              decoration: BoxDecoration(
-                color: Colors.grey,
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(10),
-                child: Image.asset(
-                  imageUrl,
-                  fit: BoxFit.cover,
-                ),
-              ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Center(
-              child: Text(
-                name,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16,
-                ),
-              ),
-            ),
-            Text(
-              type,
-              style: TextStyle(color: Color(0xff9E9E9E), fontSize: 14),
+    return TextButton(
+      onPressed: () {
+        Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) {
+            return AdminPartnerInfo();
+          },
+        ));
+      },
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.05),
+              offset: Offset(1, 1),
+              blurRadius: 40,
             ),
           ],
+          borderRadius: BorderRadius.circular(20),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Container(
+                width: MediaQuery.of(context).size.width * 0.21,
+                height: MediaQuery.of(context).size.width * 0.21,
+                decoration: BoxDecoration(
+                  color: Colors.grey,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: Image.asset(
+                    imageUrl,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 5,
+              ),
+              Center(
+                child: Text(
+                  name,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 16,
+                  ),
+                ),
+              ),
+              Text(
+                type,
+                style: TextStyle(color: Color(0xff9E9E9E), fontSize: 14),
+              ),
+            ],
+          ),
         ),
       ),
     );
