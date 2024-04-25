@@ -1,0 +1,6 @@
+framework module easy_pdf_viewer {
+  umbrella header "easy_pdf_viewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

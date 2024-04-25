@@ -1,0 +1,31 @@
+{
+  "name": "easy_pdf_viewer",
+  "version": "1.0.7",
+  "summary": "Allows you to generate PNG&#x27;s of specified pages from a provided PDF file source.",
+  "description": "Allows you to generate PNG&#x27;s of specified pages from a provided PDF file source.",
+  "homepage": "https://github.com/kaichii/pdf_viewer",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Kaichi": "contact@kaichi.dev"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

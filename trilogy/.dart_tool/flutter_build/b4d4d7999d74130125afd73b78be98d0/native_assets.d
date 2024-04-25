@@ -1,0 +1,1 @@
+ /Users/ishitamundra/Documents/GitHub/CAP/trilogy/.dart_tool/flutter_build/b4d4d7999d74130125afd73b78be98d0/native_assets.yaml: 

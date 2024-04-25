@@ -1,0 +1,60 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ishitamundra/Documents/GitHub/CAP/trilogy/build/ios/Release-iphoneos/flutter_email_sender/flutter_email_sender.framework/flutter_email_sender'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5A6DD, size: 0x8, addend: 0x0, symName: _flutter_email_senderVersionString, symObjAddr: 0x0, symBinAddr: 0xDA00, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5A712, size: 0x8, addend: 0x0, symName: _flutter_email_senderVersionNumber, symObjAddr: 0x38, symBinAddr: 0xDA38, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5A74F, size: 0x8, addend: 0x0, symName: '+[FlutterEmailSenderPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xC }
+  - { offsetInCU: 0x99, offset: 0x5A7C1, size: 0x8, addend: 0x0, symName: '+[FlutterEmailSenderPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xC }
+  - { offsetInCU: 0x4F, offset: 0x5A87D, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV7SUBJECTSSvpZ', symObjAddr: 0xD7A8, symBinAddr: 0x122E0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5A897, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV4BODYSSvpZ', symObjAddr: 0xD7B8, symBinAddr: 0x122F0, symSize: 0x0 }
+  - { offsetInCU: 0x83, offset: 0x5A8B1, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV10RECIPIENTSSSvpZ', symObjAddr: 0xD7C8, symBinAddr: 0x12300, symSize: 0x0 }
+  - { offsetInCU: 0x9D, offset: 0x5A8CB, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV2CCSSvpZ', symObjAddr: 0xD7D8, symBinAddr: 0x12310, symSize: 0x0 }
+  - { offsetInCU: 0xB7, offset: 0x5A8E5, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV3BCCSSvpZ', symObjAddr: 0xD7E8, symBinAddr: 0x12320, symSize: 0x0 }
+  - { offsetInCU: 0xD1, offset: 0x5A8FF, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV7IS_HTMLSSvpZ', symObjAddr: 0xD7F8, symBinAddr: 0x12330, symSize: 0x0 }
+  - { offsetInCU: 0xEB, offset: 0x5A919, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC8register4withySo0eH9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x800C, symSize: 0x4 }
+  - { offsetInCU: 0xFF, offset: 0x5A92D, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginCACycfC', symObjAddr: 0x4, symBinAddr: 0x8010, symSize: 0x20 }
+  - { offsetInCU: 0x122, offset: 0x5A950, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC8register4withySo0eH9Registrar_p_tFZTo', symObjAddr: 0x24, symBinAddr: 0x8030, symSize: 0x30 }
+  - { offsetInCU: 0x154, offset: 0x5A982, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC6handle_6resultySo0E10MethodCallC_yypSgctF', symObjAddr: 0x54, symBinAddr: 0x8060, symSize: 0x134 }
+  - { offsetInCU: 0x1DC, offset: 0x5AA0A, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC6handle_6resultySo0E10MethodCallC_yypSgctFTo', symObjAddr: 0x188, symBinAddr: 0x8194, symSize: 0x84 }
+  - { offsetInCU: 0x247, offset: 0x5AA75, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC8sendMail33_32EE00432F3CCB9F8D3D96328279C109LL_6resultySo0E10MethodCallC_yypSgctF', symObjAddr: 0x2DC, symBinAddr: 0x82E8, symSize: 0x116C }
+  - { offsetInCU: 0x62D, offset: 0x5AE5B, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginCACycfc', symObjAddr: 0x1474, symBinAddr: 0x9480, symSize: 0x30 }
+  - { offsetInCU: 0x668, offset: 0x5AE96, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginCACycfcTo', symObjAddr: 0x14A4, symBinAddr: 0x94B0, symSize: 0x3C }
+  - { offsetInCU: 0x6A3, offset: 0x5AED1, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginCfD', symObjAddr: 0x14E0, symBinAddr: 0x94EC, symSize: 0x30 }
+  - { offsetInCU: 0x6E1, offset: 0x5AF0F, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC8register4withySo0eH9Registrar_p_tFZTf4nd_n', symObjAddr: 0x1740, symBinAddr: 0x974C, symSize: 0xD4 }
+  - { offsetInCU: 0x774, offset: 0x5AFA2, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC9parseArgs33_32EE00432F3CCB9F8D3D96328279C109LL_6resultAA0F0VSgSo0E10MethodCallC_yypSgctF015$syXlSgIeyBy_ypW7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x1874, symBinAddr: 0x9880, symSize: 0xA70 }
+  - { offsetInCU: 0x90E, offset: 0x5B13C, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC8sendMail33_32EE00432F3CCB9F8D3D96328279C109LL_6resultySo0E10MethodCallC_yypSgctF015$syXlSgIeyBy_ypW7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x22E4, symBinAddr: 0xA2F0, symSize: 0x930 }
+  - { offsetInCU: 0xBB2, offset: 0x5B3E0, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC6handle_6resultySo0E10MethodCallC_yypSgctF015$syXlSgIeyBy_ypO7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x2C14, symBinAddr: 0xAC20, symSize: 0x1FC }
+  - { offsetInCU: 0xC52, offset: 0x5B480, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x20C, symBinAddr: 0x8218, symSize: 0xD0 }
+  - { offsetInCU: 0xD4C, offset: 0x5B57A, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x1448, symBinAddr: 0x9454, symSize: 0x2C }
+  - { offsetInCU: 0xD64, offset: 0x5B592, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC21mailComposeController_13didFinishWith5errorySo06MFMailj4ViewK0C_So0pJ6ResultVs5Error_pSgtF', symObjAddr: 0x1510, symBinAddr: 0x951C, symSize: 0x14 }
+  - { offsetInCU: 0xDD5, offset: 0x5B603, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginC21mailComposeController_13didFinishWith5errorySo06MFMailj4ViewK0C_So0pJ6ResultVs5Error_pSgtFTo', symObjAddr: 0x1524, symBinAddr: 0x9530, symSize: 0x18 }
+  - { offsetInCU: 0xE10, offset: 0x5B63E, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV7SUBJECT_WZ', symObjAddr: 0x153C, symBinAddr: 0x9548, symSize: 0x24 }
+  - { offsetInCU: 0xE2A, offset: 0x5B658, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV4BODY_WZ', symObjAddr: 0x1560, symBinAddr: 0x956C, symSize: 0x1C }
+  - { offsetInCU: 0xE44, offset: 0x5B672, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV10RECIPIENTS_WZ', symObjAddr: 0x157C, symBinAddr: 0x9588, symSize: 0x28 }
+  - { offsetInCU: 0xE5E, offset: 0x5B68C, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV2CC_WZ', symObjAddr: 0x15A4, symBinAddr: 0x95B0, symSize: 0x18 }
+  - { offsetInCU: 0xE78, offset: 0x5B6A6, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV3BCC_WZ', symObjAddr: 0x15BC, symBinAddr: 0x95C8, symSize: 0x1C }
+  - { offsetInCU: 0xE92, offset: 0x5B6C0, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailV7IS_HTML_WZ', symObjAddr: 0x15D8, symBinAddr: 0x95E4, symSize: 0x24 }
+  - { offsetInCU: 0xEC2, offset: 0x5B6F0, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x15FC, symBinAddr: 0x9608, symSize: 0x64 }
+  - { offsetInCU: 0xF0F, offset: 0x5B73D, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x1660, symBinAddr: 0x966C, symSize: 0xE0 }
+  - { offsetInCU: 0xF4E, offset: 0x5B77C, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1814, symBinAddr: 0x9820, symSize: 0x40 }
+  - { offsetInCU: 0xF62, offset: 0x5B790, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender29SwiftFlutterEmailSenderPluginCMa', symObjAddr: 0x1854, symBinAddr: 0x9860, symSize: 0x20 }
+  - { offsetInCU: 0xF81, offset: 0x5B7AF, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x2E10, symBinAddr: 0xAE1C, symSize: 0x48 }
+  - { offsetInCU: 0xF95, offset: 0x5B7C3, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x2E58, symBinAddr: 0xAE64, symSize: 0x24 }
+  - { offsetInCU: 0xFA9, offset: 0x5B7D7, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x2E7C, symBinAddr: 0xAE88, symSize: 0x20 }
+  - { offsetInCU: 0xFBD, offset: 0x5B7EB, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x2EC0, symBinAddr: 0xAECC, symSize: 0x8 }
+  - { offsetInCU: 0xFD1, offset: 0x5B7FF, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailVSgWOs', symObjAddr: 0x2F00, symBinAddr: 0xAF0C, symSize: 0x48 }
+  - { offsetInCU: 0xFE5, offset: 0x5B813, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailVSgWOe', symObjAddr: 0x2F48, symBinAddr: 0xAF54, symSize: 0x70 }
+  - { offsetInCU: 0xFF9, offset: 0x5B827, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x2FE0, symBinAddr: 0xAFEC, symSize: 0x10 }
+  - { offsetInCU: 0x100D, offset: 0x5B83B, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x2FF0, symBinAddr: 0xAFFC, symSize: 0x8 }
+  - { offsetInCU: 0x1021, offset: 0x5B84F, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x2FF8, symBinAddr: 0xB004, symSize: 0x44 }
+  - { offsetInCU: 0x1035, offset: 0x5B863, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailVwCP', symObjAddr: 0x3104, symBinAddr: 0xB110, symSize: 0x30 }
+  - { offsetInCU: 0x1049, offset: 0x5B877, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailVwxx', symObjAddr: 0x3134, symBinAddr: 0xB140, symSize: 0x48 }
+  - { offsetInCU: 0x105D, offset: 0x5B88B, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailVwcp', symObjAddr: 0x317C, symBinAddr: 0xB188, symSize: 0x84 }
+  - { offsetInCU: 0x1071, offset: 0x5B89F, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailVwca', symObjAddr: 0x3200, symBinAddr: 0xB20C, symSize: 0xD4 }
+  - { offsetInCU: 0x1085, offset: 0x5B8B3, size: 0x8, addend: 0x0, symName: ___swift_memcpy65_8, symObjAddr: 0x32D4, symBinAddr: 0xB2E0, symSize: 0x24 }
+  - { offsetInCU: 0x1099, offset: 0x5B8C7, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailVwta', symObjAddr: 0x32F8, symBinAddr: 0xB304, symSize: 0x8C }
+  - { offsetInCU: 0x10AD, offset: 0x5B8DB, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailVwet', symObjAddr: 0x3384, symBinAddr: 0xB390, symSize: 0x5C }
+  - { offsetInCU: 0x10C1, offset: 0x5B8EF, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailVwst', symObjAddr: 0x33E0, symBinAddr: 0xB3EC, symSize: 0x68 }
+  - { offsetInCU: 0x10D5, offset: 0x5B903, size: 0x8, addend: 0x0, symName: '_$s20flutter_email_sender5EmailVMa', symObjAddr: 0x3448, symBinAddr: 0xB454, symSize: 0x10 }
+...
